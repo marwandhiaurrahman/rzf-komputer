@@ -3,8 +3,20 @@
    ========================================================================== */
 
 .order {
-  padding: 64px 0 72px;
+  padding: 64px 0;
   text-align: center;
+  @include large {
+    padding: 56px 0;
+  }
+  @include medium {
+    padding: 48px 0;
+  }
+  @include small {
+    padding: 32px 0;
+  }
+  @include retina {
+    padding: 30px 0;
+  }
   &__title {
     @include font-size(24);
     font-weight: fw(semi-bold);

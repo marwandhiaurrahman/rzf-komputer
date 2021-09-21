@@ -3398,7 +3398,7 @@ b {
 }
 .card-product__card__img__el {
   position: absolute;
-  max-height: 100%;
+  height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -3527,7 +3527,7 @@ b {
   min-width: 285px;
   margin-right: 12px;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 575.86px) {
   .btn--confirmation {
     margin-right: 0;
     margin-bottom: 20px;
@@ -5676,28 +5676,28 @@ Layout: Banner
    Layouts Why Choose Us
    ========================================================================== */
 .features {
-  padding: 40px 0;
+  padding: 64px 0;
   text-align: center;
   position: relative;
 }
 @media only screen and (max-width: 1199.98px) {
   .features {
-    padding: 72px 0;
+    padding: 56px 0;
   }
 }
 @media only screen and (max-width: 991.98px) {
   .features {
-    padding: 80px 0 56px;
+    padding: 48px 0;
   }
 }
 @media only screen and (max-width: 767.98px) {
   .features {
-    padding: 80px 0 44px;
+    padding: 32px 0;
   }
 }
-@media only screen and (max-width: 575.86px) {
+@media only screen and (max-width: 320px) {
   .features {
-    padding: 72px 0 40px;
+    padding: 30px 0;
   }
 }
 .features__wrapper {
@@ -5851,7 +5851,27 @@ Layout: Banner
 .sale {
   text-align: center;
   position: relative;
-  padding: 40px 0;
+  padding: 64px 0;
+}
+@media only screen and (max-width: 1199.98px) {
+  .sale {
+    padding: 56px 0;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .sale {
+    padding: 48px 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .sale {
+    padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .sale {
+    padding: 30px 0;
+  }
 }
 .sale__logo {
   margin: 0 0 36px;
@@ -5966,16 +5986,26 @@ Layout: Banner
    Layouts: Product Detail
    ========================================================================== */
 .pdetail {
-  padding: 48px 0 80px;
+  padding: 64px 0;
+}
+@media only screen and (max-width: 1199.98px) {
+  .pdetail {
+    padding: 56px 0;
+  }
 }
 @media only screen and (max-width: 991.98px) {
   .pdetail {
-    padding: 64px 0;
+    padding: 48px 0;
   }
 }
 @media only screen and (max-width: 767.98px) {
   .pdetail {
     padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .pdetail {
+    padding: 30px 0;
   }
 }
 .pdetail__row::before, .pdetail__row::after {
@@ -6372,8 +6402,28 @@ Layout: Banner
    Layouts Contact
    ========================================================================== */
 .contact {
-  padding: 40px 0;
+  padding: 64px 0;
   text-align: center;
+}
+@media only screen and (max-width: 1199.98px) {
+  .contact {
+    padding: 56px 0;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .contact {
+    padding: 48px 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .contact {
+    padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .contact {
+    padding: 30px 0;
+  }
 }
 .contact__logo {
   margin: 0 0 36px;
@@ -6477,16 +6527,27 @@ Layout: Banner
    ========================================================================== */
 .cart {
   padding: 120px 0 48px;
+  padding: 64px 0;
   background-color: #fff;
+}
+@media only screen and (max-width: 1199.98px) {
+  .cart {
+    padding: 56px 0;
+  }
 }
 @media only screen and (max-width: 991.98px) {
   .cart {
     padding: 48px 0;
   }
 }
-@media only screen and (max-width: 575.86px) {
+@media only screen and (max-width: 767.98px) {
   .cart {
-    padding: 24px 0;
+    padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .cart {
+    padding: 30px 0;
   }
 }
 .cart__table,
@@ -6494,7 +6555,7 @@ Layout: Banner
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
-  margin-bottom: 24px;
+  margin-bottom: 0;
   font-size: 12px;
   line-height: 1.2;
   font-weight: normal;
@@ -6662,7 +6723,27 @@ Layout: Banner
 }
 
 .checkout {
-  padding: 24px 0 48px;
+  padding: 64px 0;
+}
+@media only screen and (max-width: 1199.98px) {
+  .checkout {
+    padding: 56px 0;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .checkout {
+    padding: 48px 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .checkout {
+    padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .checkout {
+    padding: 30px 0;
+  }
 }
 .checkout__wrapper::before, .checkout__wrapper::after {
   content: " ";
@@ -6763,27 +6844,27 @@ Layout: Banner
 .card-product {
   text-align: center;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 64px 0;
   font-size: 0;
 }
 @media only screen and (max-width: 1199.98px) {
   .card-product {
-    padding: 112px 0 72px;
+    padding: 56px 0;
   }
 }
 @media only screen and (max-width: 991.98px) {
   .card-product {
-    padding: 88px 0 56px;
+    padding: 48px 0;
   }
 }
 @media only screen and (max-width: 767.98px) {
   .card-product {
-    padding: 80px 0 44px;
+    padding: 32px 0;
   }
 }
-@media only screen and (max-width: 575.86px) {
+@media only screen and (max-width: 320px) {
   .card-product {
-    padding: 48px 0 40px;
+    padding: 30px 0;
   }
 }
 .card-product__body {
@@ -6904,23 +6985,33 @@ Layout: Banner
    Category
    ========================================================================== */
 .c-p {
-  padding: 40px 0;
+  padding: 64px 0;
+}
+@media only screen and (max-width: 1199.98px) {
+  .c-p {
+    padding: 56px 0;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .c-p {
+    padding: 48px 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .c-p {
+    padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .c-p {
+    padding: 30px 0;
+  }
 }
 .c-p__head {
   position: relative;
   text-align: center;
   width: 100%;
   margin-bottom: 8px;
-}
-@media only screen and (max-width: 1199.98px) {
-  .c-p__head {
-    margin-bottom: 16px;
-  }
-}
-@media only screen and (max-width: 991.98px) {
-  .c-p__head {
-    margin-bottom: 24px;
-  }
 }
 .c-p__title {
   margin-bottom: 40px;
@@ -7231,6 +7322,7 @@ Layout: Banner
   background-color: #fff;
   position: relative;
   padding: 8px 12px;
+  z-index: 3;
   max-width: 160px;
   margin-left: 24px;
   -webkit-border-radius: 8px;
@@ -7242,6 +7334,21 @@ Layout: Banner
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  -webkit-transform: translate(0);
+     -moz-transform: translate(0);
+      -ms-transform: translate(0);
+       -o-transform: translate(0);
+          transform: translate(0);
+}
+@media only screen and (max-width: 1440px) {
+  .product__sorting-select {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .product__sorting-select {
+    margin-left: 24px;
+  }
 }
 .product__sorting-title {
   text-align: center;
@@ -7332,8 +7439,13 @@ Layout: Banner
 .sticky {
   position: fixed;
   top: 0;
-  left: 11.5%;
-  right: 11.5%;
+  -webkit-transform: translate(0);
+     -moz-transform: translate(0);
+      -ms-transform: translate(0);
+       -o-transform: translate(0);
+          transform: translate(0);
+  width: 100%;
+  left: 0;
   z-index: 8;
   margin: 0;
   -webkit-transition: all 350ms ease;
@@ -7355,17 +7467,71 @@ Layout: Banner
     width: 100%;
   }
 }
+.sticky .product__sorting-select {
+  -webkit-transform: translate(100%, 0);
+     -moz-transform: translate(100%, 0);
+      -ms-transform: translate(100%, 0);
+       -o-transform: translate(100%, 0);
+          transform: translate(100%, 0);
+}
+@media only screen and (max-width: 1680px) {
+  .sticky .product__sorting-select {
+    -webkit-transform: translate(10vw, 0);
+       -moz-transform: translate(10vw, 0);
+        -ms-transform: translate(10vw, 0);
+         -o-transform: translate(10vw, 0);
+            transform: translate(10vw, 0);
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .sticky .product__sorting-select {
+    -webkit-transform: translate(30%);
+       -moz-transform: translate(30%);
+        -ms-transform: translate(30%);
+         -o-transform: translate(30%);
+            transform: translate(30%);
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .sticky .product__sorting-select {
+    -webkit-transform: translate(20%);
+       -moz-transform: translate(20%);
+        -ms-transform: translate(20%);
+         -o-transform: translate(20%);
+            transform: translate(20%);
+  }
+}
 
 /* ==========================================================================
    Layouts Persuasive
    ========================================================================== */
 .persuasive {
   position: relative;
-  padding: 40px 0;
+  padding: 64px 0;
+}
+@media only screen and (max-width: 1199.98px) {
+  .persuasive {
+    padding: 56px 0;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .persuasive {
+    padding: 48px 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .persuasive {
+    padding: 32px 0;
+  }
 }
 @media only screen and (max-width: 575.86px) {
   .persuasive {
     height: 320px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .persuasive {
+    padding: 30px 0;
   }
 }
 .persuasive__wrapper {
@@ -7448,12 +7614,27 @@ Layout: Banner
    Layouts: Order Success
    ========================================================================== */
 .order-success {
-  padding: 120px 0;
+  padding: 64px 0;
   background-color: #fff;
+}
+@media only screen and (max-width: 1199.98px) {
+  .order-success {
+    padding: 56px 0;
+  }
 }
 @media only screen and (max-width: 991.98px) {
   .order-success {
-    padding: 60px 0;
+    padding: 48px 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .order-success {
+    padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .order-success {
+    padding: 30px 0;
   }
 }
 .order-success__invoice-info {
@@ -7553,8 +7734,28 @@ Layout: Banner
    Layouts: Status Pemesanan
    ========================================================================== */
 .order {
-  padding: 64px 0 72px;
+  padding: 64px 0;
   text-align: center;
+}
+@media only screen and (max-width: 1199.98px) {
+  .order {
+    padding: 56px 0;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .order {
+    padding: 48px 0;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .order {
+    padding: 32px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .order {
+    padding: 30px 0;
+  }
 }
 .order__title {
   font-size: 2.4rem;

@@ -3,21 +3,26 @@
    ========================================================================== */
 
 .c-p {
-  padding: 40px 0;
+  padding: 64px 0;
   $temp: &;
+  @include large {
+    padding: 56px 0;
+  }
+  @include medium {
+    padding: 48px 0;
+  }
+  @include small {
+    padding: 32px 0;
+  }
+  @include retina {
+    padding: 30px 0;
+  }
   &__head {
     position: relative;
     text-align: center;
     width: 100%;
     margin-bottom: 8px;
-    @include large {
-      margin-bottom: 16px;
-    }
-    @include medium {
-      margin-bottom: 24px;
-    }
   }
-
   &__title {
     margin-bottom: 40px;
     @include large {

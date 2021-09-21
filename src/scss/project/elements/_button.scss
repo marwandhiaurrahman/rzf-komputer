@@ -76,7 +76,7 @@
   &--confirmation {
     min-width: 285px;
     margin-right: 12px;
-    @include small {
+    @include extra-small {
       margin-right: 0;
       margin-bottom: 20px;
     }

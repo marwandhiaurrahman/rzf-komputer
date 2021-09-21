@@ -21,11 +21,19 @@
       background-color: color(white);
       position: relative;
       padding: 8px 12px;
+      z-index: 3;
       max-width: 160px;
       margin-left: 24px;
       border-radius: 8px;
       cursor: pointer;
       @include remove-tap-highlight;
+      transform: translate(0);
+      @include mq(1440px) {
+        margin-left: 0;
+      }
+      @include mq(1280px) {
+        margin-left: 24px;
+      }
     }
     &-title {
       text-align: center;
@@ -92,8 +100,9 @@
 .sticky {
   position: fixed;
   top: 0;
-  left: 11.5%;
-  right: 11.5%;
+  transform: translate(0);
+  width: 100%;
+  left: 0;
   z-index: 8;
   margin: 0;
   transition: all 350ms ease;
@@ -104,5 +113,17 @@
   @include extra-small {
     border-radius: 0;
     width: 100%;
+  }
+  .product__sorting-select {
+    transform: translate(100%, 0);
+    @include mq(1680px) {
+      transform: translate(10vw, 0);
+    } 
+    @include mq(1300px) {
+      transform: translate(30%);
+    }
+    @include mq(1280px) {
+      transform: translate(20%);
+    }
   }
 }
